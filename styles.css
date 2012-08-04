@@ -1,0 +1,88 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+
+/* eb.com styling */
+html {
+  min-height: 100%;
+  background: url('img/bg_line.gif');
+}
+
+body {
+  min-height: 100%;
+  background: url('img/emilie_bergeron.png') top center no-repeat;
+  padding: 114px 0;
+}
+
+#content {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.sprite {
+  text-indent: -9999px;
+}
+
+.coming-soon {
+  background: url('img/bientot.png') no-repeat;
+  margin: 0 auto;
+  height: 23px;
+  width: 223px;
+  margin-bottom:
+}
+
+h1 {
+  height: 714px;
+}
+
+.contact-links {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 224px;
+}
+
+.contact-links li {
+  float: left;
+  margin-right: 28px;
+}
+
+.contact-links li.last {
+  margin-right: 0;
+}
+
+.contact-links a {
+  display: block;
+  height: 71px;
+  width: 56px;
+  background: url('img/sprite.png') no-repeat;
+}
+
+.contact-links .behance  a { background-position: 0px 0px; }
+.contact-links .linkedin a { background-position: -85px 0px; }
+.contact-links .twitter  a { background-position: -175px 0px; }
+
+.contact-links .behance  a:hover { background-position: 0px -80px; }
+.contact-links .linkedin a:hover { background-position: -85px -80px; }
+.contact-links .twitter  a:hover { background-position: -175px -80px; }
+
+/*
+ * background-clip -> cover
+ * max-height
+ *
+ * position top/bottom : absolue.
+ * */
