@@ -29,7 +29,6 @@ body {
   overflow: hidden;
 }
 
-
 #content {
   height: 100%;
   margin: 0 auto;
@@ -50,9 +49,11 @@ h1 {
   text-align: center;
 }
 
+body {
+}
+
 #emilie-bg {
   height: 100%;
-  margin: 0 -75%;
 }
 
 .coming-soon {
@@ -97,3 +98,12 @@ h1 {
 .behance  a:hover { background-position: 0px -80px; }
 .linkedin a:hover { background-position: -85px -80px; }
 .twitter  a:hover { background-position: -175px -80px; }
+
+/* Fix scrolling problem on iOS + serves CSS3 hotness to all but old IEs */
+@media all and (min-width: 200px) {
+  h1 { display:none; }
+  body {
+    background: url('img/emilie_bergeron.png') top center no-repeat;
+    background-size: auto 100%;
+  }
+}
