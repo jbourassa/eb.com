@@ -25,19 +25,27 @@ html {
 
 body {
   height: 100%;
-  background: url('img/emilie_bergeron.png') top center no-repeat;
-  background-size: auto 100%;
 }
+
 
 #content {
   height: 100%;
   margin: 0 auto;
-  width: 700px;
+  width: 480px;
   position: relative;
 }
 
 .sprite {
   text-indent: -9999px;
+}
+
+#emilie-bg {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .coming-soon {
